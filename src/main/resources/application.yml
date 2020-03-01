@@ -1,0 +1,19 @@
+person:
+  lastName: zhangsan
+  age: 18
+  boss: true
+  birth: 2017/12/12
+  maps:
+    name1: nn
+    name2: mm
+  list:
+    - fsd
+    - fdsv
+    - cv
+    - vvv
+  dog:
+    name: fdf
+    age: 11
+logging:
+  file:
+    name: springboot.log

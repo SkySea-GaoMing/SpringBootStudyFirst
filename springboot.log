@@ -1,0 +1,52 @@
+2020-01-26 15:26:12.307  INFO 13072 --- [main] com.atguigu.HelloWorldMainApplication    : Starting HelloWorldMainApplication on DESKTOP-M2968PR with PID 13072 (D:\spring-boot-01-helloworld\target\classes started by Huawei in D:\spring-boot-01-helloworld)
+2020-01-26 15:26:12.330  INFO 13072 --- [main] com.atguigu.HelloWorldMainApplication    : No active profile set, falling back to default profiles: default
+2020-01-26 15:26:14.027  INFO 13072 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-26 15:26:14.037  INFO 13072 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-26 15:26:14.037  INFO 13072 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-01-26 15:26:14.127  INFO 13072 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-26 15:26:14.127  INFO 13072 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1714 ms
+2020-01-26 15:26:14.397  INFO 13072 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-26 15:26:14.587  INFO 13072 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-26 15:26:14.592  INFO 13072 --- [main] com.atguigu.HelloWorldMainApplication    : Started HelloWorldMainApplication in 2.945 seconds (JVM running for 5.315)
+2020-01-26 15:27:42.503  INFO 13072 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-26 15:27:42.507  INFO 13072 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-26 15:27:42.507  INFO 13072 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2020-01-26 15:34:30.981  INFO 19208 --- [main] com.atguigu.HelloWorldMainApplication    : Starting HelloWorldMainApplication on DESKTOP-M2968PR with PID 19208 (D:\spring-boot-01-helloworld\target\classes started by Huawei in D:\spring-boot-01-helloworld)
+2020-01-26 15:34:30.987  INFO 19208 --- [main] com.atguigu.HelloWorldMainApplication    : No active profile set, falling back to default profiles: default
+2020-01-26 15:34:32.176  INFO 19208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-26 15:34:32.186  INFO 19208 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-26 15:34:32.186  INFO 19208 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-01-26 15:34:32.247  INFO 19208 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-26 15:34:32.256  INFO 19208 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1187 ms
+2020-01-26 15:34:32.407  INFO 19208 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-26 15:34:32.581  INFO 19208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-26 15:34:32.586  INFO 19208 --- [main] com.atguigu.HelloWorldMainApplication    : Started HelloWorldMainApplication in 2.234 seconds (JVM running for 4.542)
+2020-01-26 15:34:38.391  INFO 19208 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-26 15:34:38.391  INFO 19208 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-26 15:34:38.396  INFO 19208 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-01-26 19:58:08.302  INFO 616 --- [main] com.atguigu.HelloWorldMainApplication    : Starting HelloWorldMainApplication on DESKTOP-M2968PR with PID 616 (D:\spring-boot-01-helloworld\target\classes started by Huawei in D:\spring-boot-01-helloworld)
+2020-01-26 19:58:08.313  INFO 616 --- [main] com.atguigu.HelloWorldMainApplication    : No active profile set, falling back to default profiles: default
+2020-01-26 19:58:09.652  INFO 616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-26 19:58:09.658  INFO 616 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-26 19:58:09.666  INFO 616 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-01-26 19:58:09.755  INFO 616 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-26 19:58:09.755  INFO 616 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1338 ms
+2020-01-26 19:58:09.974  INFO 616 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-26 19:58:10.217  INFO 616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-26 19:58:10.224  INFO 616 --- [main] com.atguigu.HelloWorldMainApplication    : Started HelloWorldMainApplication in 2.656 seconds (JVM running for 5.006)
+2020-01-26 19:58:37.491  INFO 616 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-26 19:58:37.494  INFO 616 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-26 19:58:37.506  INFO 616 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-01-26 19:59:06.515  INFO 19148 --- [main] com.atguigu.HelloWorldMainApplication    : Starting HelloWorldMainApplication on DESKTOP-M2968PR with PID 19148 (D:\spring-boot-01-helloworld\target\classes started by Huawei in D:\spring-boot-01-helloworld)
+2020-01-26 19:59:06.517  INFO 19148 --- [main] com.atguigu.HelloWorldMainApplication    : No active profile set, falling back to default profiles: default
+2020-01-26 19:59:07.777  INFO 19148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-26 19:59:07.786  INFO 19148 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-26 19:59:07.786  INFO 19148 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-01-26 19:59:07.855  INFO 19148 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-26 19:59:07.855  INFO 19148 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1278 ms
+2020-01-26 19:59:08.016  INFO 19148 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-26 19:59:08.217  INFO 19148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-26 19:59:08.226  INFO 19148 --- [main] com.atguigu.HelloWorldMainApplication    : Started HelloWorldMainApplication in 2.292 seconds (JVM running for 4.524)
+2020-01-26 19:59:11.617  INFO 19148 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-26 19:59:11.617  INFO 19148 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-26 19:59:11.630  INFO 19148 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms

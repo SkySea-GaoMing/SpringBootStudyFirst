@@ -1,0 +1,49 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.atguigu.controller.bean.Person",
+      "sourceType": "com.atguigu.controller.bean.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.atguigu.controller.bean.Person",
+      "defaultValue": 0
+    },
+    {
+      "name": "person.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.atguigu.controller.bean.Person"
+    },
+    {
+      "name": "person.boss",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.atguigu.controller.bean.Person",
+      "defaultValue": false
+    },
+    {
+      "name": "person.dog",
+      "type": "com.atguigu.controller.bean.Dog",
+      "sourceType": "com.atguigu.controller.bean.Person"
+    },
+    {
+      "name": "person.last-name",
+      "type": "java.lang.String",
+      "sourceType": "com.atguigu.controller.bean.Person"
+    },
+    {
+      "name": "person.list",
+      "type": "java.util.ArrayList<java.lang.Object>",
+      "sourceType": "com.atguigu.controller.bean.Person"
+    },
+    {
+      "name": "person.maps",
+      "type": "java.util.HashMap<java.lang.String,java.lang.Object>",
+      "sourceType": "com.atguigu.controller.bean.Person"
+    }
+  ],
+  "hints": []
+}
