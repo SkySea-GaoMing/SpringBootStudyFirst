@@ -1,19 +1,21 @@
-person:
-  lastName: zhangsan
-  age: 18
-  boss: true
-  birth: 2017/12/12
-  maps:
-    name1: nn
-    name2: mm
-  list:
-    - fsd
-    - fdsv
-    - cv
-    - vvv
-  dog:
-    name: fdf
-    age: 11
+
+spring:
+  #数据库连接配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/gaoming?serverTimezone=UTC
+    username: root
+    password: 19991005
+
+#mybatis的相关配置
+mybatis:
+  #mapper配置文件
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.atguigu.mybatis.entity
+  #开启驼峰命名
+  configuration:
+    map-underscore-to-camel-case: true
+
 logging:
   file:
     name: springboot.log

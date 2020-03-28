@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.atguigu.mybatis.mapper.Ppermapper">
+    <select id="querybyid" resultMap="ppersonresult"
+            parameterType="int" >
+        select * from pperson where id = #{id}
+ </select>
+    <resultMap id="ppersonresult" type="com.atguigu.mybatis.entity.Pperson">
+        <!--对应分为主键和非主键，在数据库中将id变为主键 -->
+        <!--主键用id，非主键用result -->
+        <id property="id" column="id" />
+        <result property="name" column="name" />
+        <result property="age" column="age" />
+        <result property="sex" column="sex" jdbcType="INTEGER"
+                javaType="boolean" />
+        <result property="address.homeAddress" column="homeaddress"></result>
+        <result property="address.schoolAddress" column="schooladdress"></result>
+    </resultMap>
+    <insert id="addpperson" parameterType="com.atguigu.mybatis.entity.Pperson">
+ 		insert into pperson values(#{id},#{name},#{age},#{sex,javaType=boolean,jdbcType=INTEGER})
+ 	</insert>
+    <delete id="deletebyid" parameterType="int">
+ 		delete from pperson where id=#{xxx}
+ 	</delete>
+    <update id="updatebyid" parameterType="com.atguigu.mybatis.entity.Pperson">
+ 		update pperson set name=#{name},age=#{age} where id=#{id}
+ 	</update>
+    <select id="queryall" resultType="com.atguigu.mybatis.entity.Pperson">
+ 		select * from pperson
+ 	</select>
+    <select id="queryaddress" parameterType="com.atguigu.mybatis.entity.Pperson"
+            resultMap="ppersonresult" >
+    select * from pperson where homeaddress =#{address.homeAddress} or
+    schooladdress=#{address.schoolAddress}
+    </select>
+    <select id="queryhash" parameterType="HashMap" resultMap="ppersonresult">
+    select * from pperson where age=#{age} or name=#{name}
+    </select>
+</mapper>
